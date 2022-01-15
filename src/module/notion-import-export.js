@@ -38,6 +38,7 @@ Hooks.once('setup', async () => {
 // When ready
 Hooks.once('ready', async () => {
   // Do anything once the module is ready
+  console.log('notion-import-export | Ready');
 });
 
 // Add any additional hooks if necessary
